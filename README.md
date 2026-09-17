@@ -1,7 +1,7 @@
 # LUMINUOUS QUEST - TLS 2026
 
-Nama: Raden Roro Hafiza Farha Puruhita
-Kelompok: Agate
+- Nama: Raden Roro Hafiza Farha Puruhita
+- Kelompok: Agate
 
 ## Deskripsi
 Repository ini berisi pengerjaan Tugas Pemrograman Dasar (Luminuous Quest) TLS 2026. Isinya meliputi:
