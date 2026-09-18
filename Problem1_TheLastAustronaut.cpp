@@ -9,12 +9,12 @@ int main() {
   int astronot[1000];
 
   // Mengisi array dengan nomor 1 sampai N
-  for (int 1 = 0; i < N; i++) {
+  for (int i = 0; i < N; i++) {
       astronot[i] = i + 1;
   }
 
-  int jumlah = N
-  int posisi = 0
+  int jumlah = N;
+  int posisi = 0;
 
   cout << "Urutan Eliminasi: ";
 
@@ -31,7 +31,7 @@ int main() {
     }
 
   // Menghapus astronot dengan menggeser semua elemen setelah korban ke kiri
-    for (int i = posisiEliminasi; i < jumlah - 1, i++) {
+    for (int i = posisiEliminasi; i < jumlah - 1; i++) {
         astronot[i] = astronot[i + 1];
       }
 
@@ -51,7 +51,7 @@ int main() {
 
   // Setelah korban dieliminasi, hitungan berikutnya dimulai dari astronot setelah korban
   // Jika korban tadi adalah elemen terakhir, kembali ke elemen pertama
-    if (posisiEliminasi = jumlah) {
+    if (posisiEliminasi == jumlah) {
         posisi = 0;
     } else {
         posisi = posisiEliminasi;
